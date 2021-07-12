@@ -13,6 +13,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>service_user</module>
+        <module>service_hospital</module>
     </modules>
 
     <properties>
@@ -21,6 +22,21 @@
     </properties>
 
     <dependencies>
+        <dependency>
+            <groupId>cn.fq</groupId>
+            <artifactId>model</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>cn.fq</groupId>
+            <artifactId>common_util</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>cn.fq</groupId>
+            <artifactId>service_util</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
 
         <!--web -->
         <dependency>
